@@ -18,7 +18,7 @@
     
         .row.mb-4
           .col-4.d-none.d-xl-block
-            img(src='@/assets/curso/unidad/img-6.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/unidad/img-5.png', alt='Texto que describa la imagen')
           .col-12.col-xl-8
             p.mb-4 A lo largo de esta unidad, se explorará la noción de <b>clases y objetos</b> como los componentes esenciales de la POO. Se examinará cómo estos conceptos permiten modelar y organizar el código de manera modular y reutilizable, facilitando así el desarrollo de aplicaciones complejas. Además, se abordarán los principios de encapsulación y abstracción, los cuales promueven un diseño sólido y seguro.
             .bg-azul.p-4(data-aos='fade-up')
@@ -33,7 +33,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-bold.mb-3 Programación Orientada a Objetos. Conceptos básicos I 
+                  p.text-bold.mb-3 Introducción a POO 
                   p.text-small Para reforzar los conceptos generales sobre introducción a la programación orientada a objetos, le invitamos a ver el siguiente vídeo en YouTube.
                 .col-sm-auto
                   a.download-btn.boton.text-white.bg-morado-oscuro.text-white(href="https://youtu.be/nuwcn0SzpLs " target='_blank')
@@ -65,7 +65,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-bold.mb-3 Uso IA UML
+                  p.text-bold.mb-3 Programación Orientada a Objetos. Conceptos básicos I
                   p.text-small Para reforzar los conceptos generales sobre clases y objetos, le invitamos a ver el siguiente vídeo en YouTube. 
                 .col-sm-auto
                   a.download-btn.boton.text-white.bg-morado-oscuro.text-white(href="https://www.youtube.com/watch?v=AsFevN7MEzw" target='_blank')
