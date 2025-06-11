@@ -192,7 +192,7 @@
                   p.text-bold.mb-3 Uso IA UML
                   p.text-small Lo invitamos a ver el vídeo con el resultado obtenido por la IA. 
                 .col-sm-auto
-                  a.download-btn.boton.text-white.bg-morado-oscuro.text-white(:href="obtenerLink('/downloads/Anexo_video_Uso_IA_UML.mov')" target='_blank')
+                  a.download-btn.boton.text-white.bg-morado-oscuro.text-white(href="https://www.youtube.com/watch?v=jaotkZO9uIw" target='_blank')
                     span.text-small Ver video
                     i.fas.fa-arrow-right
 
@@ -429,7 +429,7 @@
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
           h2.mb-4.pb-2.me-auto.text-white Interacción entre objetos
           p.mb-5(data-aos="fade-up").text-white Se invita a leer el documento Interacción entre objetos, donde se aborda cómo los objetos en un sistema orientado a objetos se comunican y colaboran mediante asociaciones, mensajes, y otros mecanismos esenciales para el diseño de <i>software</i>.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_interaccion_entre_objetos.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Interacción entre objetos
         .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
